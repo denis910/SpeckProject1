@@ -50,6 +50,10 @@ body {
     margin-right: 60px;
 }
 
+.header__nav-item:hover {
+    color: #dc143c;
+}
+
 /* Section hero */
 .section-hero {
     background-image: url(images/hero.jpeg);
@@ -75,6 +79,20 @@ body {
     transform: translateY(-50%);
     left: 0;
     right: 0;
+}
+
+.section-hero__heading { 
+    color: #e4b43c;
+    line-height: 140%;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.section-hero__subheading { 
+    width: 800px;
+    line-height: 160%;
+    font-weight: 400;
+    color: #FFFFFF
 }
 
 /* General section */
@@ -153,4 +171,24 @@ body {
     cursor: pointer;
     border-color: #e4b43c;
     background: #e4b43c;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #333;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.footer__content{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.copyright {
+    color: #d0d0d0;
+    font-size: 14px;
 }
