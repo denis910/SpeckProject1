@@ -192,3 +192,8 @@ body {
     color: #d0d0d0;
     font-size: 14px;
 }
+
+.title {
+    margin-top: 100px;
+    text-align: center;
+}
