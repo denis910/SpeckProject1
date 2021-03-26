@@ -4,6 +4,10 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* header */
@@ -192,3 +196,12 @@ body {
     color: #d0d0d0;
     font-size: 14px;
 }
+
+h2.events__event-title {
+    font-size: 1.17em;
+}
+
+main{
+    flex:1;
+}
+
